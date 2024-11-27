@@ -3,7 +3,7 @@
 /*
     Cores principais:
     Verde: #49a09d
-    Azul: #000070
+    Azul: #000080
 */
 
 *{
@@ -14,7 +14,7 @@
 }
 
 body, html{
-    background-color: #000070;
+    background-color: #000080;
     height: 100vh;
     width: 100vw;
 }
@@ -37,11 +37,14 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.550);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
     display: block;
-    background: #5f2c82 url(../imagens/building.jpg) no-repeat left bottom;
+    background: #5f2c82 url(../imagens/building.jpg) no-repeat right bottom;
     background-size: cover;
     height: 200px;
 }
